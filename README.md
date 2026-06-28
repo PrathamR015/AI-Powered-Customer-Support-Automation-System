@@ -10,7 +10,7 @@ An enterprise-grade Customer Support Automation backend built using **LangGraph*
 *   **Specialized Agents**: Division of labor between Sales, Technical, Billing, and Account agents.
 *   **Local RAG Integration**: Automatically retrieves context from company policies, pricing plans, and FAQs using local embeddings and cosine similarity.
 *   **QA Supervisor Agent**: Validates and improves agent draft responses against company policies and correctness before they reach the user.
-*   **Human-in-the-Loop Interrupts**: Pauses graph execution on high-risk queries (e.g. refund requests, cancellations) to require supervisor approval.
+*   **Human-in-the-Loop Interrupts**: Pauses graph execution for human supervisor approval **exclusively** on Billing department requests (such as refunds, cancellations, and compensations). Other agents bypass this gate to provide direct answers immediately.
 *   **Persistent SQLite Memory**: Stores conversation states across runs, enabling memory recall queries to retrieve past thread history.
 
 ---
@@ -35,11 +35,11 @@ graph TD
     
     Supervisor --> Router{Requires Human Approval?}
     
-    Router -- "Yes" --> InterruptGate{{"[Interrupt Before Gate]"}}
+    Router -- "Yes (Billing & Pending)" --> InterruptGate{{"[Interrupt Before Gate]"}}
     InterruptGate --> HumanAppr[Human Approval Node]
     HumanAppr --> END((END))
     
-    Router -- "No / Approved" --> Finalize[Finalize Response Node]
+    Router -- "No / Approved / Other Agents" --> Finalize[Finalize Response Node]
     Finalize --> END
 ```
 
