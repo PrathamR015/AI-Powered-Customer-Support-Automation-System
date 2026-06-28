@@ -1,0 +1,19 @@
+PRICING GUIDE
+-------------------
+ABC Technologies offers the following pricing plans for our cloud-based business management software:
+
+1. Basic Plan
+- Price: Rs.299 per month (billed monthly).
+- Target Audience: Small businesses, solo entrepreneurs.
+- Features: Core business tracking, single-user access, basic dashboard, email support.
+- Limitations: No integrations, no advanced reporting.
+
+2. Professional Plan
+- Price: Rs.799 per month (billed monthly).
+- Target Audience: Growing businesses.
+- Features: Advanced reporting, multi-user access (up to 5 users), software integrations (CRM, Slack, QuickBooks), priority email support.
+
+3. Enterprise Plan
+- Price: Rs.1999 per month (billed monthly).
+- Target Audience: Large organizations.
+- Features: Custom support channel, unlimited users, dedicated account manager, API access, 99.9% uptime SLA guarantees.

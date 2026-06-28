@@ -1,0 +1,27 @@
+COMPANY POLICY DOCUMENT
+-----------------------
+This document outlines policies regarding high-risk customer requests at ABC Technologies:
+
+1. Refund Policy
+- Customers are eligible for a full refund on annual subscriptions if requested within 30 days of the purchase date.
+- Refunds requested after 30 days are generally not allowed except under extreme circumstances.
+- All refund requests must be routed to the Billing department.
+- CRITICAL: All refund requests require explicit review and approval by a human supervisor. They cannot be auto-approved.
+
+2. Subscription Cancellation Policy
+- Customers can cancel their subscription at any time.
+- Upon cancellation, the subscription remains active until the end of the current billing cycle. No partial refunds are issued for unused days.
+- CRITICAL: Subscription cancellation requests require human supervisor review and approval before final confirmation.
+
+3. Account Closure Policy
+- Customers can request permanent closure of their account.
+- This action is irreversible and will delete all stored business data within 14 business days.
+- CRITICAL: Account closure requests must be validated and approved by a human supervisor to prevent accidental data loss.
+
+4. Compensation Policy
+- If a customer experiences billing errors or system downtime, support representatives can issue compensation (billing credit) up to a maximum of $50.
+- CRITICAL: Any compensation request must be reviewed and approved by a human supervisor.
+
+5. Escalation to Management
+- If a customer is highly dissatisfied and requests escalation to management, the ticket must be flagged.
+- CRITICAL: Escalations to management must be approved by a human supervisor before being assigned to a manager.

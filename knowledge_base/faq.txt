@@ -1,0 +1,18 @@
+FAQ DOCUMENT
+------------
+Frequently Asked Questions by customers of ABC Technologies:
+
+Q: How do I reset my password?
+A: You can reset your password by clicking on the "Forgot Password" link on the login screen. Alternatively, if you are logged in, go to Settings > Security > Reset Password in the application dashboard. Follow the instructions sent to your registered email address.
+
+Q: What payment methods do you support?
+A: We support all major credit cards (Visa, MasterCard, American Express), PayPal, and direct bank transfers for Enterprise customers.
+
+Q: How do I change my profile information?
+A: Go to Settings > Profile, update your details (name, email, organization), and click "Save Changes".
+
+Q: Can I reactivate my account after deactivation?
+A: Yes, if you deactivated your account, you can reactivate it by logging in with your old credentials and clicking "Activate Account" or by contacting Account Support.
+
+Q: How can I request a refund?
+A: To request a refund, please contact billing support. Refunds are subject to our 30-day refund policy and require supervisor approval.

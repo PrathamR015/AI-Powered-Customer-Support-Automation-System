@@ -1,0 +1,19 @@
+TECHNICAL MANUAL
+----------------
+ABC Technologies Technical Troubleshooting and Manual:
+
+1. Application Crashes on File Upload
+- Issue: The application crashes or throws an out-of-memory error when uploading files.
+- Cause: The file size exceeds the maximum limit or has an incorrect format.
+- Solution: 
+  - Ensure the uploaded file is within the 10MB limit. Files larger than 10MB will cause application crashes due to memory allocation limits.
+  - Accepted file formats are PDF, PNG, JPG, and CSV.
+  - For CSV files, ensure the encoding is UTF-8. Other encodings may lead to crashes during file parsing.
+
+2. Installation Issues
+- Ensure system meets minimum requirements: Node.js v18+, Python 3.10+, and at least 8GB RAM.
+- Clean application cache and run clean install command: "npm run clean-install".
+
+3. Configuration Errors
+- Check that the database connection string in your .env config is correct.
+- If you see "Unauthorized Access" errors, check if the session token secret key has expired in config.env.
