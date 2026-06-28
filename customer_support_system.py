@@ -216,8 +216,12 @@ Customer Query: "{query}"
 Formulate a helpful and professional draft response to the customer. Do not mention "Retrieved Context" or "chunks" to the customer. Address them directly.
 """
         draft_response = call_llama(agent_prompt, temperature=0.2)
-        requires_approval = check_high_risk(query, history_str)
-        approval_status = "pending" if requires_approval else "none"
+        if department_name == "Billing":
+            requires_approval = check_high_risk(query, history_str)
+            approval_status = "pending" if requires_approval else "none"
+        else:
+            requires_approval = False
+            approval_status = "none"
         
         if requires_approval:
             print(f"[Node: {department_name} Agent] High-risk request detected! Flagging for human approval.")
